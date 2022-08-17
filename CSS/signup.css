@@ -1,0 +1,138 @@
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(31, 30, 30), rgb(74, 74, 73))
+}
+
+.container .form{
+  padding:20px;
+  width:450px;
+  height:auto ;
+  background: rgb(8, 8, 8);
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  border-radius: 20px;
+  align-items: center;
+}
+
+
+
+
+
+
+
+.container .form .col .inputBox{
+  margin:15px 0 30px 20%;
+  width: 250px;
+
+  color: rgb(67, 64, 64); 
+}
+#email{
+    border-radius: 10px;
+    height: 45px;
+     color: #fff; 
+     background-color: rgb(59, 58, 58);
+     margin-bottom: 15px;
+}
+#pass{
+    border-radius: 10px;
+     color: #fff; 
+     background-color: rgb(59, 58, 58);
+     margin-bottom: 15px;
+}
+
+.container .form  .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+  color: #fff; 
+}
+
+.container form  .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+  color: rgb(52, 48, 48); 
+  background-color: rgb(59, 58, 58);
+}
+
+
+
+.container .form  .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form  .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+
+
+.container .form .submit-btn, .login-button{
+  width: 250px;
+  padding:12px;
+  font-size: 17px;
+  background: rgb(255, 106, 0);
+  color:#fff;
+  margin: 5px 0 0 20%;
+  cursor: pointer;
+  border-radius: 20px;
+  border:1px solid #ccc;
+}
+
+.btn {
+  background-color: rgb(56, 58, 60); 
+  border: none; 
+  color: white; 
+  padding: 15px; 
+  font-size: 12px; 
+  cursor: pointer; 
+  text-align: left;
+  display: flex;
+  gap: 5px;
+  border-radius: 10px;
+  border:1px solid #ccc;
+
+
+}
+
+.icon{
+    font-size: 16px;
+}
+.social{
+    display: flex;
+    gap: 20px;
+   margin-left: 13%;
+   margin-top: 10%;
+  
+}
+#para{
+    color: #fff;
+}
+.col>h2{
+    color: #fff;
+    
+}
+/* #mobile{
+    font-size: 16px;
+}
+#facebook{
+    font-size: 16px;
+}
+#google{
+    font-size: 16px;
+} */

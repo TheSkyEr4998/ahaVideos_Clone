@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Payment</title>
+        <link rel="stylesheet" href="../CSS/payment.css">
+    </head>
+    <body>
+        <div id="mainDiv">
+            <div class="left-pay-div">
+                <p>Selected Plan</p>
+                <div class="plan-details-got">
+                    <p id="planName">Plan Name</p>
+                    <p id="planPrice">price</p>
+                </div>
+                <br><br>
+                <table >
+                    <tr>
+                        <td>
+                            <img style="width: 50px;" src="https://aha-web.evergent.com/0593e1f26e94f86af6dd50d99123cd45.svg" alt="">
+                        </td>
+                        <td>UPI</td>
+                        <td><i class="arrow down"></i></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <img src="https://aha-web.evergent.com/534eebff557b445362290abc1554dd47.svg" alt="">
+                        </td>
+                        <td>Credit Card / Debit Card</td>
+                        <td><i class="arrow down"></i></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://aha-web.evergent.com/02bcd75ed983c23ca4095ab97ddf48c4.svg" alt="">
+                        </td>
+                        <td>Wallets</td>
+                        <td><i class="arrow down"></i></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://aha-web.evergent.com/60154b4ba4fa4fd16b171e9c4b5577bd.svg" alt="">
+                        </td>
+                        <td>Netbanking</td>
+                        <td><i class="arrow down"></i></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="right-pay-div">
+                <p>Apply Coupon Code</p>
+                <div class="promo-details-got">
+                    <input type="text" id="promocode" placeholder="Enter Coupon / Offer /Refferal Code">
+                    <button onclick="applyPromoFn()">APPLY</button>
+                </div>
+                <div><p>Payment Details</p></div>
+                <br><br><br><br>
+                <div class="promo-details-got">
+                    <table style="height:150px;">
+                        <tr>
+                            <td>
+                                <p>subscription charges</p>
+                            </td>
+                            <td>
+                                <p id="bill1">R 699</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Promocode</p>
+                            </td>
+                            <td>
+                                <p id="bill2">R 699</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>total Payable</p>
+                            </td>
+                            <td>
+                                <p id="bill3">R 699</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br><br><br><br>
+                <div class="pricing">
+                    <p id="productBill">Total Price</p>
+                    <button id="paybtn">Pay Now</button>
+                </div>
+                <br>
+                <div>
+                    <p id="Warning">You will be charged with this amount once a year until you cancel. By proceeeding, I confirm that I am over 18, and agree to the Terms of use and Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="../JS/payment.js"></script>
+</html>
