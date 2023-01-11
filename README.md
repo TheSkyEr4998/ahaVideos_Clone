@@ -3,8 +3,6 @@
 
 Aha Videos is a paid South Indian OTT platform to watch TV shows, movies & other related videos in selective south indian languages.
 
-and we create its clone.
-
 
 
 
