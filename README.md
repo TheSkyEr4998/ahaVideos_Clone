@@ -1,7 +1,7 @@
 
 # Aha Video Clone
 
-Aha is very own regional streaming service owned by Arha Media & Broadcasting Pvt. Ltd. Here you can witness shows, movies and more to create those memorable Aha Moments! All in your 100% local, 100% native language.
+Aha Videos is a paid South Indian OTT platform to watch TV shows, movies & other related videos in selective south indian languages.
 
 and we create its clone.
 
